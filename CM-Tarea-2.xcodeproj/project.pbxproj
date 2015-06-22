@@ -10,11 +10,16 @@
 		583973391B38587600EF2611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973381B38587600EF2611 /* main.m */; };
 		5839733C1B38587600EF2611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839733B1B38587600EF2611 /* AppDelegate.m */; };
 		5839733F1B38587600EF2611 /* CM_Tarea_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5839733D1B38587600EF2611 /* CM_Tarea_2.xcdatamodeld */; };
-		583973421B38587600EF2611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973411B38587600EF2611 /* ViewController.m */; };
+		583973421B38587600EF2611 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973411B38587600EF2611 /* Start.m */; };
 		583973451B38587600EF2611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583973431B38587600EF2611 /* Main.storyboard */; };
 		583973471B38587600EF2611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583973461B38587600EF2611 /* Images.xcassets */; };
 		5839734A1B38587600EF2611 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 583973481B38587600EF2611 /* LaunchScreen.xib */; };
 		583973561B38587600EF2611 /* CM_Tarea_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973551B38587600EF2611 /* CM_Tarea_2Tests.m */; };
+		583973651B386CCA00EF2611 /* cellPoliticoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973631B386CCA00EF2611 /* cellPoliticoTableViewCell.m */; };
+		583973661B386CCA00EF2611 /* cellPoliticoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 583973641B386CCA00EF2611 /* cellPoliticoTableViewCell.xib */; };
+		583973691B386D3100EF2611 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973681B386D3100EF2611 /* Declarations.m */; };
+		5839736C1B386D5300EF2611 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839736B1B386D5300EF2611 /* Intro.m */; };
+		5839736F1B386D6600EF2611 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839736E1B386D6600EF2611 /* Home.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,23 @@
 		5839733A1B38587600EF2611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5839733B1B38587600EF2611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5839733E1B38587600EF2611 /* CM_Tarea_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CM_Tarea_2.xcdatamodel; sourceTree = "<group>"; };
-		583973401B38587600EF2611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		583973411B38587600EF2611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		583973401B38587600EF2611 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		583973411B38587600EF2611 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		583973441B38587600EF2611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		583973461B38587600EF2611 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		583973491B38587600EF2611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5839734F1B38587600EF2611 /* CM-Tarea-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CM-Tarea-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		583973541B38587600EF2611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		583973551B38587600EF2611 /* CM_Tarea_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CM_Tarea_2Tests.m; sourceTree = "<group>"; };
+		583973621B386CCA00EF2611 /* cellPoliticoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellPoliticoTableViewCell.h; sourceTree = "<group>"; };
+		583973631B386CCA00EF2611 /* cellPoliticoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellPoliticoTableViewCell.m; sourceTree = "<group>"; };
+		583973641B386CCA00EF2611 /* cellPoliticoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellPoliticoTableViewCell.xib; sourceTree = "<group>"; };
+		583973671B386D3100EF2611 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		583973681B386D3100EF2611 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		5839736A1B386D5300EF2611 /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		5839736B1B386D5300EF2611 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		5839736D1B386D6600EF2611 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		5839736E1B386D6600EF2611 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +97,9 @@
 		583973351B38587600EF2611 /* CM-Tarea-2 */ = {
 			isa = PBXGroup;
 			children = (
-				5839733A1B38587600EF2611 /* AppDelegate.h */,
-				5839733B1B38587600EF2611 /* AppDelegate.m */,
-				583973401B38587600EF2611 /* ViewController.h */,
-				583973411B38587600EF2611 /* ViewController.m */,
+				583973611B385C9800EF2611 /* Main */,
+				583973601B385C8100EF2611 /* Cells */,
+				5839735F1B385BF200EF2611 /* Controllers */,
 				583973431B38587600EF2611 /* Main.storyboard */,
 				583973461B38587600EF2611 /* Images.xcassets */,
 				583973481B38587600EF2611 /* LaunchScreen.xib */,
@@ -120,6 +133,40 @@
 				583973541B38587600EF2611 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5839735F1B385BF200EF2611 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5839736A1B386D5300EF2611 /* Intro.h */,
+				5839736B1B386D5300EF2611 /* Intro.m */,
+				583973401B38587600EF2611 /* Start.h */,
+				583973411B38587600EF2611 /* Start.m */,
+				5839736D1B386D6600EF2611 /* Home.h */,
+				5839736E1B386D6600EF2611 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		583973601B385C8100EF2611 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				583973621B386CCA00EF2611 /* cellPoliticoTableViewCell.h */,
+				583973631B386CCA00EF2611 /* cellPoliticoTableViewCell.m */,
+				583973641B386CCA00EF2611 /* cellPoliticoTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		583973611B385C9800EF2611 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5839733A1B38587600EF2611 /* AppDelegate.h */,
+				5839733B1B38587600EF2611 /* AppDelegate.m */,
+				583973671B386D3100EF2611 /* Declarations.h */,
+				583973681B386D3100EF2611 /* Declarations.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583973661B386CCA00EF2611 /* cellPoliticoTableViewCell.xib in Resources */,
 				583973451B38587600EF2611 /* Main.storyboard in Resources */,
 				5839734A1B38587600EF2611 /* LaunchScreen.xib in Resources */,
 				583973471B38587600EF2611 /* Images.xcassets in Resources */,
@@ -224,8 +272,12 @@
 			files = (
 				5839733C1B38587600EF2611 /* AppDelegate.m in Sources */,
 				583973391B38587600EF2611 /* main.m in Sources */,
-				583973421B38587600EF2611 /* ViewController.m in Sources */,
+				5839736F1B386D6600EF2611 /* Home.m in Sources */,
+				583973691B386D3100EF2611 /* Declarations.m in Sources */,
+				583973651B386CCA00EF2611 /* cellPoliticoTableViewCell.m in Sources */,
+				583973421B38587600EF2611 /* Start.m in Sources */,
 				5839733F1B38587600EF2611 /* CM_Tarea_2.xcdatamodeld in Sources */,
+				5839736C1B386D5300EF2611 /* Intro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
