@@ -106,7 +106,20 @@
     //Fill cell with info from arrays
     cell.lblEst.text    =  maEstados[indexPath.row];
     cell.lblPart.text   =  maPartidos[indexPath.row];
-    cell.imgPol.image   =  [UIImage imageNamed:maImgsEstados[indexPath.row]];
+    
+    //check if thre arent any images in the cell and load it from memory
+    if ([UIImage imageNamed:maImgsEstados[indexPath.row]]== nil) {
+        NSString *cachedFolderPath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0];
+        NSString *cachedImagePath = [cachedFolderPath stringByAppendingPathComponent:maImgsEstados[indexPath.row]];
+        cell.imgPol.image = [UIImage imageWithData:[NSData dataWithContentsOfFile: cachedImagePath]];
+    }
+    else{
+        cell.imgPol.image   =  [UIImage imageNamed:maImgsEstados[indexPath.row]];
+    }
+    
+    cell.clipsToBounds  = YES;
+    [cell.contentView.superview setClipsToBounds:YES];
+    
     
     return cell;
 }
@@ -120,5 +133,9 @@
     
 }
 - (IBAction)btnAddPressed:(id)sender {
+    AddEstado *addEst= [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"AddEstado"];
+    
+    [self presentViewController:addEst animated:YES completion:nil];
+    
 }
 @end

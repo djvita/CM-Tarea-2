@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddEstado : UIViewController
+@interface AddEstado : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate >
+
+@property (strong, nonatomic) IBOutlet UITextField *txtFEst;
+
+@property (strong, nonatomic) IBOutlet UITextField *txtFPart;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)btnAddImagePressed:(id)sender;
+- (IBAction)btnSavePressed:(id)sender;
+- (IBAction)btnBackPressed:(id)sender;
+- (IBAction)btnSetPressed:(id)sender;
+
 
 @end
