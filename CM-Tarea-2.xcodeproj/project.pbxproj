@@ -20,6 +20,7 @@
 		583973691B386D3100EF2611 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 583973681B386D3100EF2611 /* Declarations.m */; };
 		5839736C1B386D5300EF2611 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839736B1B386D5300EF2611 /* Intro.m */; };
 		5839736F1B386D6600EF2611 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5839736E1B386D6600EF2611 /* Home.m */; };
+		5848F1A91B387C3000F0EF51 /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 5848F1A81B387C3000F0EF51 /* Details.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		5839736B1B386D5300EF2611 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		5839736D1B386D6600EF2611 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		5839736E1B386D6600EF2611 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		5848F1A71B387C3000F0EF51 /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		5848F1A81B387C3000F0EF51 /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 				583973411B38587600EF2611 /* Start.m */,
 				5839736D1B386D6600EF2611 /* Home.h */,
 				5839736E1B386D6600EF2611 /* Home.m */,
+				5848F1A71B387C3000F0EF51 /* Details.h */,
+				5848F1A81B387C3000F0EF51 /* Details.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				5839736F1B386D6600EF2611 /* Home.m in Sources */,
 				583973691B386D3100EF2611 /* Declarations.m in Sources */,
 				583973651B386CCA00EF2611 /* cellPoliticoTableViewCell.m in Sources */,
+				5848F1A91B387C3000F0EF51 /* Details.m in Sources */,
 				583973421B38587600EF2611 /* Start.m in Sources */,
 				5839733F1B38587600EF2611 /* CM_Tarea_2.xcdatamodeld in Sources */,
 				5839736C1B386D5300EF2611 /* Intro.m in Sources */,
@@ -472,6 +478,7 @@
 				5839735B1B38587600EF2611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5839735C1B38587600EF2611 /* Build configuration list for PBXNativeTarget "CM-Tarea-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				5839735E1B38587600EF2611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

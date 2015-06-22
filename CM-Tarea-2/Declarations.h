@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Declarations : UIViewController
+#import <Foundation/Foundation.h>
+
+extern NSUserDefaults   *mUserDefaults;
+extern NSMutableArray   *maIntroTitles;
+extern NSMutableArray   *maIntroImgs;
+extern NSMutableArray   *maTeams;
+extern NSMutableArray   *maImgsTeams;
+
+@interface Declarations : NSObject
 
 @end
