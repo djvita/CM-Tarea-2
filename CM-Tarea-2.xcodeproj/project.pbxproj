@@ -82,6 +82,7 @@
 		5839732A1B38587600EF2611 = {
 			isa = PBXGroup;
 			children = (
+				5848F1AA1B387ED400F0EF51 /* imgs */,
 				583973351B38587600EF2611 /* CM-Tarea-2 */,
 				583973521B38587600EF2611 /* CM-Tarea-2Tests */,
 				583973341B38587600EF2611 /* Products */,
@@ -172,6 +173,14 @@
 				583973681B386D3100EF2611 /* Declarations.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		5848F1AA1B387ED400F0EF51 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = imgs;
+			path = "CM-Tarea-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
