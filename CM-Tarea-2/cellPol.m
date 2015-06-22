@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 vita. All rights reserved.
 //
 
-#import "cellPoliticoTableViewCell.h"
+#import "cellPol.h"
 
-@implementation cellPoliticoTableViewCell
+@implementation cellPol
 
 - (void)awakeFromNib {
     // Initialization code

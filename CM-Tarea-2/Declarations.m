@@ -11,10 +11,17 @@
 //User Defaults
 NSUserDefaults      *mUserDefaults;
 
+int miCharacterIndex = 0;
 NSMutableArray      *maIntroTitles;
 NSMutableArray      *maIntroImgs;
-NSMutableArray      *maTeams;
-NSMutableArray      *maImgsTeams;
+NSMutableArray      *maEstados;
+NSMutableArray      *maImgsEstados;
+NSMutableArray      *maPartidos;
+
+NSString *sName;
+NSString *sAlias;
+NSString *sAge;
+NSString *sDesc;
 
 @implementation Declarations
 

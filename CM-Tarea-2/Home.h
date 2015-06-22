@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Home : UIViewController
+@interface Home : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tabla;
+- (IBAction)btnAddPressed:(id)sender;
 
 @end

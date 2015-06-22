@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface Details : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *imgPart;
+@property (strong, nonatomic) IBOutlet UILabel *lblEstado;
+@property (strong, nonatomic) IBOutlet UILabel *lblPartido;
+
+- (IBAction)btnBackPressed:(id)sender;
+
 
 @end

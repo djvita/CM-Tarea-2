@@ -7,6 +7,11 @@
 //
 
 #import "Home.h"
+#import "Declarations.h"
+#import "cellPol.h"
+#import "Intro.h"
+#import "AddEstado.h"
+#import "Details.h"
 
 @interface Home ()
 
@@ -14,24 +19,106 @@
 
 @implementation Home
 
+/**********************************************************************************************/
+#pragma mark - Initialization methods
+/**********************************************************************************************/
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initController];
 }
-
+//-------------------------------------------------------------------------------
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewWillAppear:(BOOL)animated // new
+{
+    NSLog(@"viewDidAppear");
+    [super viewDidAppear:animated];
+    
+    [self.tabla reloadData];
+    
 }
-*/
-
+//-------------------------------------------------------------------------------
+- (void)initController {
+    maEstados             = [[NSMutableArray alloc] initWithObjects:
+                             @"Jalisco",
+                             @"Yucatan",
+                             @"Sonora",
+                             @"Sinaloa",
+                             @"Nayarit",
+                             @"Baja California",
+                             @"DF",
+                             @"Oaxaca",
+                             nil
+                             ];
+    
+    maPartidos             = [[NSMutableArray alloc] initWithObjects:
+                             @"PRI",
+                             @"PAN",
+                             @"PRD",
+                             @"Movimiento Ciudadano",
+                             @"Morena",
+                             @"PT",
+                             @"PRI",
+                             @"Movimiento Ciudadano",
+                             nil
+                             ];
+    
+    maImgsEstados         = [[NSMutableArray alloc] initWithObjects:
+                             @"pri.png",
+                             @"pri.png",
+                             @"pri.png",
+                             @"pri.png",
+                             @"pri.png",
+                             @"pri.png",
+                             @"pri.png",
+                             @"pri.png",
+                             nil];
+}
+/**********************************************************************************************/
+#pragma mark - Table source and delegate methods
+/**********************************************************************************************/
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+//-------------------------------------------------------------------------------
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return maEstados.count;
+}
+//-------------------------------------------------------------------------------
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 64;
+}
+//-------------------------------------------------------------------------------
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //Initialize cells
+    cellPol *cell = (cellPol *)[tableView dequeueReusableCellWithIdentifier:@"cellPol"];
+    
+    if (cell == nil) {
+        [tableView registerNib:[UINib nibWithNibName:@"cellPol" bundle:nil] forCellReuseIdentifier:@"cellPol"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"cellPol"];
+    }
+    //Fill cell with info from arrays
+    cell.lblEst.text    =  maEstados[indexPath.row];
+    cell.lblPart.text   =  maPartidos[indexPath.row];
+    cell.imgPol.image   =  [UIImage imageNamed:maImgsEstados[indexPath.row]];
+    
+    return cell;
+}
+//-------------------------------------------------------------------------------
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    miCharacterIndex = (int)indexPath.row;
+    Details *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Details"];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
+    
+}
+- (IBAction)btnAddPressed:(id)sender {
+}
 @end

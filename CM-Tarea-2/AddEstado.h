@@ -1,5 +1,5 @@
 //
-//  cellPoliticoTableViewCell.h
+//  AddEstado.h
 //  CM-Tarea-2
 //
 //  Created by vita on 6/22/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface cellPoliticoTableViewCell : UITableViewCell
+@interface AddEstado : UIViewController
 
 @end
