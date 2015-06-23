@@ -18,10 +18,9 @@ NSMutableArray      *maEstados;
 NSMutableArray      *maImgsEstados;
 NSMutableArray      *maPartidos;
 
-NSString *sName;
-NSString *sAlias;
-NSString *sAge;
-NSString *sDesc;
+NSString *sPart;
+NSString *sEst;
+
 
 @implementation Declarations
 
