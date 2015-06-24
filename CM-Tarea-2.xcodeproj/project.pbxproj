@@ -91,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				5848F1B01B38A04100F0EF51 /* MobileCoreServices.framework */,
-				5848F1AA1B387ED400F0EF51 /* imgs */,
 				583973351B38587600EF2611 /* CM-Tarea-2 */,
 				583973521B38587600EF2611 /* CM-Tarea-2Tests */,
 				583973341B38587600EF2611 /* Products */,
@@ -110,6 +109,7 @@
 		583973351B38587600EF2611 /* CM-Tarea-2 */ = {
 			isa = PBXGroup;
 			children = (
+				5848F1AA1B387ED400F0EF51 /* imgs */,
 				583973611B385C9800EF2611 /* Main */,
 				583973601B385C8100EF2611 /* Cells */,
 				5839735F1B385BF200EF2611 /* Controllers */,
@@ -192,7 +192,6 @@
 				5848F1AB1B3892DF00F0EF51 /* pri.png */,
 			);
 			name = imgs;
-			path = "CM-Tarea-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
