@@ -43,7 +43,7 @@
 //-------------------------------------------------------------------------------
 - (void)initController {
     maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Ve tu estado\ny su partido politico", @"Ve a detalle su informacion", @"Agrega otro Estado", nil];
-    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"img1.png", @"img2.png", @"img3.png", nil];
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"img1.png", @"img2.jpg", @"img3.png", nil];
     
     [self createPageViews];
 }
