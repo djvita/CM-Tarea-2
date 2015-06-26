@@ -24,6 +24,9 @@
 		5848F1AC1B3892DF00F0EF51 /* pri.png in Resources */ = {isa = PBXBuildFile; fileRef = 5848F1AB1B3892DF00F0EF51 /* pri.png */; };
 		5848F1AF1B38956500F0EF51 /* AddEstado.m in Sources */ = {isa = PBXBuildFile; fileRef = 5848F1AE1B38956500F0EF51 /* AddEstado.m */; };
 		5848F1B11B38A04100F0EF51 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5848F1B01B38A04100F0EF51 /* MobileCoreServices.framework */; };
+		586545341B3D97E10008180B /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 586545331B3D97E10008180B /* img1.png */; };
+		586545371B3D9AE60008180B /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 586545351B3D9AE60008180B /* img2.jpg */; };
+		586545381B3D9AE60008180B /* img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 586545361B3D9AE60008180B /* img3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		5848F1AD1B38956500F0EF51 /* AddEstado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEstado.h; sourceTree = "<group>"; };
 		5848F1AE1B38956500F0EF51 /* AddEstado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEstado.m; sourceTree = "<group>"; };
 		5848F1B01B38A04100F0EF51 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		586545331B3D97E10008180B /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		586545351B3D9AE60008180B /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		586545361B3D9AE60008180B /* img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +195,9 @@
 		5848F1AA1B387ED400F0EF51 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				586545351B3D9AE60008180B /* img2.jpg */,
+				586545361B3D9AE60008180B /* img3.png */,
+				586545331B3D97E10008180B /* img1.png */,
 				5848F1AB1B3892DF00F0EF51 /* pri.png */,
 			);
 			name = imgs;
@@ -277,8 +286,11 @@
 				5848F1AC1B3892DF00F0EF51 /* pri.png in Resources */,
 				583973661B386CCA00EF2611 /* cellPol.xib in Resources */,
 				583973451B38587600EF2611 /* Main.storyboard in Resources */,
+				586545381B3D9AE60008180B /* img3.png in Resources */,
 				5839734A1B38587600EF2611 /* LaunchScreen.xib in Resources */,
 				583973471B38587600EF2611 /* Images.xcassets in Resources */,
+				586545341B3D97E10008180B /* img1.png in Resources */,
+				586545371B3D9AE60008180B /* img2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
