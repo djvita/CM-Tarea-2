@@ -67,13 +67,13 @@
     
     maImgsEstados         = [[NSMutableArray alloc] initWithObjects:
                              @"pri.png",
+                             @"pan.png",
                              @"pri.png",
+                             @"prd.png",
+                             @"mc.png",
+                             @"pt.png",
                              @"pri.png",
-                             @"pri.png",
-                             @"pri.png",
-                             @"pri.png",
-                             @"pri.png",
-                             @"pri.png",
+                             @"mc.png",
                              nil];
 }
 /**********************************************************************************************/
