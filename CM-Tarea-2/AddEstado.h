@@ -19,7 +19,7 @@
 - (IBAction)btnAddImagePressed:(id)sender;
 - (IBAction)btnSavePressed:(id)sender;
 - (IBAction)btnBackPressed:(id)sender;
-- (IBAction)btnSetPressed:(id)sender;
+
 
 
 @end

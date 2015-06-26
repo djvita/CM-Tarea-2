@@ -101,6 +101,5 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (IBAction)btnSetPressed:(id)sender {
-}
+
 @end
