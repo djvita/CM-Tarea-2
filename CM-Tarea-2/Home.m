@@ -22,16 +22,16 @@
 /**********************************************************************************************/
 #pragma mark - Initialization methods
 /**********************************************************************************************/
-- (void)viewDidLoad {
+-(void)viewDidLoad {
     [super viewDidLoad];
     [self initController];
 }
 //-------------------------------------------------------------------------------
-- (void)didReceiveMemoryWarning {
+-(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (void)viewWillAppear:(BOOL)animated // new
+-(void)viewWillAppear:(BOOL)animated // new
 {
     NSLog(@"viewDidAppear");
     [super viewDidAppear:animated];
@@ -40,7 +40,7 @@
     
 }
 //-------------------------------------------------------------------------------
-- (void)initController {
+-(void)initController {
     maEstados             = [[NSMutableArray alloc] initWithObjects:
                              @"Jalisco",
                              @"Yucatan",
